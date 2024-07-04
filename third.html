@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table View</title>
+    <style>
+        li{
+            display: inline;
+        }
+    
+
+
+    </style>
+</head>
+<body>
+    <h1>third</h1>
+    <div>
+        <li id="li5" value=""><a href="" id="a5"><</a></li>
+        <li id="li1" value="1"><a href="" id="a1">1</a></li>
+        <li id="li2" value="2"><a href="" id="a2">2</a></li>
+        <li id="li3" value="3"><a href="" id="a3">3</a></li>
+        <li id="li4" value=""><a href="" id="a4">></a></li>
+        </div>
+    <script>
+          
+        let li5=document.getElementById('li5');
+        li5.addEventListener("click",fun5);
+        function fun5(){
+            document.getElementById('a5').href="second.html";
+        }
+        let li1=document.getElementById('li1');
+        li1.addEventListener("click",fun);
+        function fun(){
+            document.getElementById('a1').href="first.html";
+        }
+        
+        let li12=document.getElementById('li2');
+        li2.addEventListener("click",fun1);
+        function fun1(){
+            document.getElementById('a2').href="second.html";
+        }
+
+        let li13=document.getElementById('li3');
+        li3.addEventListener("click",fun3);
+        function fun3(){
+            document.getElementById('a3').href="third.html";
+        }
+</script>
+</body>
+</html>
